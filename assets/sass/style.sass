@@ -1,0 +1,111 @@
+@import ../fonts/font
+@import ../colors/colors
+@import mixins
+
+nav
+  background-color: $menu
+.fa-circle
+  color: $white
+
+.fa-instagram,.fa-facebook,.fa-twitter
+  color: $yellow
+
+.nav-link
+  @include links ($white, $yellow , $yellow)
+
+// .nav-link:hover,
+// .nav-link:focus
+//   color: $yellow
+
+.nav-item
+  margin-left: 3rem
+
+.nav-link
+  font-size: $font-size-nav
+  font-family: $nav-font
+
+  color: $white
+
+.navbar-toggler
+  padding: 0.25rem 0.75rem
+  font-size: 1.25rem
+
+  color: $white
+  background-color: transparent
+  border: 1px solid transparent
+  border-radius: 0.25rem
+
+.navbar-brand
+  background-color: $white
+  height: 7.625rem
+  width: 7.625rem
+
+.center
+  position: relative
+  top: 25%
+  left: 25%
+  width: 50%
+
+.masthead
+  max-width: 100%
+  height: auto
+  padding-top: 5rem
+
+  background-position: center center
+  background-size: cover
+
+.page-footer
+  background-color: $yellow
+  height: 10.875rem
+
+.page-section
+  max-width: 100%
+  height: auto
+  background-color: $purple
+
+.about
+  font-size: 1.813rem
+  font-family: $nav-font
+
+.first-section-content
+  max-width: 100%
+  height: auto
+
+.first-section-text
+  font-size: $font-size-1
+  color: #eaeaea
+  font-family: $text-font
+  display: flex
+  flex-wrap: nowrap
+
+.dot-container
+  display: flex
+  flex-wrap: nowrap
+
+  padding: 1.25rem
+
+.dot
+  width: 1.75rem
+  height: 1.75rem
+  background-color: #efbd01
+  border-radius: 50%
+
+.image-container
+  width: 100%
+
+.second-section-text
+  font-size: $font-size-2
+  color: $purple
+  font-family: $text-font
+.lorem
+  font-family: $text-font
+  font-size: $font-size-2
+.quote
+  width: 2.25rem
+  height: 2.25rem
+  color: #616161f5
+
+@media (min-width  :990px)
+
+  .navbar
+    height: 7.625rem

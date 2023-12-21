@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+nav {
+  background-color: #2d2b2b;
+}
+
+.fa-circle {
+  color: #ffffff;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter {
+  color: #e4bc01;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #e4bc01;
+}
+.nav-link:active, .nav-link:focus {
+  color: #e4bc01;
+}
+
+.nav-item {
+  margin-left: 3rem;
+}
+
+.nav-link {
+  font-size: 2.25rem;
+  font-family: "League Gothic", sans-serif;
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.navbar-brand {
+  background-color: #ffffff;
+  height: 7.625rem;
+  width: 7.625rem;
+}
+
+.center {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+}
+
+.masthead {
+  max-width: 100%;
+  height: auto;
+  padding-top: 5rem;
+  background-position: center center;
+  background-size: cover;
+}
+
+.page-footer {
+  background-color: #e4bc01;
+  height: 10.875rem;
+}
+
+.page-section {
+  max-width: 100%;
+  height: auto;
+  background-color: #3a0a1d;
+}
+
+.about {
+  font-size: 1.813rem;
+  font-family: "League Gothic", sans-serif;
+}
+
+.first-section-content {
+  max-width: 100%;
+  height: auto;
+}
+
+.first-section-text {
+  font-size: 1.0625rem;
+  color: #eaeaea;
+  font-family: "Lacuna", sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.dot-container {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 1.25rem;
+}
+
+.dot {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: #efbd01;
+  border-radius: 50%;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.second-section-text {
+  font-size: 1.187rem;
+  color: #3a0a1d;
+  font-family: "Lacuna", sans-serif;
+}
+
+.lorem {
+  font-family: "Lacuna", sans-serif;
+  font-size: 1.187rem;
+}
+
+.quote {
+  width: 2.25rem;
+  height: 2.25rem;
+  color: rgba(97, 97, 97, 0.9607843137);
+}
+
+@media (min-width: 990px) {
+  .masthead {
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+  }
+  .navbar {
+    height: 7.625rem;
+  }
+}/*# sourceMappingURL=style.css.map */
